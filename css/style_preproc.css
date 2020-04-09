@@ -140,7 +140,7 @@ header {
   margin: auto;
   background-image: url("../images/fon.png");
   background-repeat: no-repeat;
-  background-size: 100%; }
+  background-size: cover; }
   .fon .owl-carousel .owl-stage-outer {
     height: 100%; }
   .fon .content {
@@ -180,12 +180,25 @@ header {
     justify-content: space-around; }
     .option .option_block .option_info {
       width: 370px;
-      text-align: center; }
+      text-align: center;
+      padding-top: 120px; }
       .option .option_block .option_info h4 {
         background-color: #485460;
         font-size: 26px;
         color: #ffffff;
         box-sizing: border-box;
-        padding: 30px; }
+        padding: 15px; }
+      .option .option_block .option_info h5 {
+        font-size: 20px;
+        color: #485460;
+        padding: 25px;
+        background-color: #f8f9fb;
+        border: 1px solid #ecf0f1; }
+      .option .option_block .option_info p {
+        background-color: #ffffff;
+        color: #8c9299;
+        font-size: 16px;
+        border: 1px solid #ecf0f1;
+        padding: 22px; }
 
 /*# sourceMappingURL=style_preproc.css.map */
