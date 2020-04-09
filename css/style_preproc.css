@@ -13,16 +13,12 @@ html, body {
 header {
   max-width: 1170px;
   margin: auto;
-  display: flex; }
-  header .logo {
-    position: relative;
-    top: 42px; }
+  display: flex;
+  padding-top: 52px;
+  justify-content: space-between; }
 
 .nav {
   overflow: hidden;
-  position: absolute;
-  right: 5%;
-  top: 70px;
   width: auto;
   height: 60px;
   margin-top: -45px;
