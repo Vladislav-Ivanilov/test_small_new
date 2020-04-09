@@ -1,5 +1,5 @@
 @import url(owl.theme.default.min.css);
-@import url(owl.theme.default.min.css);
+@import url(owl.carousel.min.css);
 
 
 *, *:before, *:after {
@@ -41,7 +41,10 @@ header {
   margin: auto;
   display: flex;
   padding-top: 52px;
+  padding-bottom: 80px;
   justify-content: space-between;
+  box-sizing: border-box;
+
 }
 .nav {
   overflow: hidden;
@@ -180,3 +183,47 @@ header {
     }
   }
 }
+
+section {
+  margin: auto;
+  background-image: url("../images/fon.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  .owl-carousel .owl-stage-outer {
+    height: 100%;
+  }
+  .content {
+    margin: auto;
+    max-width: 1380px;
+    padding-top: 150px;
+    text-align: center;
+    overflow:no-content;
+    h2 {
+      font-size: 64px;
+      color: #ffffff;
+      margin-bottom: 50px;
+    }
+    h3 {
+      font-size: 23px;
+      color: #ffffff;
+      width: 375px;
+      margin: auto;
+    }
+  }
+  .link {
+    margin: auto;
+    padding-top: 65px;
+    padding-bottom: 150px;
+    a{
+      font-size: 26px;
+      color: #ffffff;
+      text-decoration: none;
+      border: 3px solid #FFFFFF;
+      border-radius: 5px;
+      padding: 22px 36px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+}
+
